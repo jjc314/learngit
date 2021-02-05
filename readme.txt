@@ -73,6 +73,24 @@ git stash pop
 git stash apply stash@{0}
 复制一个特定的提交到当前分支
 git cherry-pick  <commit>
+查看远程库信息
+git remote
+git remote -v 显示更详细的信息
+推送分支
+git push origin master 
+git push origin dev
+创建远程dev分支
+git checkout -b dev origin/dev
+创建本地分支与远程分支的连接
+git branch --set-upstream-to=origin/dev/ dev
+拉去远程分支代码
+git pull
+挪动提交位置使版本变成直线
+git rebase
+
+
+
+
 
 
 
